@@ -1,0 +1,131 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+}
+
+.wrapper {
+  background: white;
+}
+
+.flex-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  width: 48%;
+  justify-content: center;
+}
+
+.header {
+}
+
+.footer {
+}
+
+.header,
+.footer {
+  position: relative;
+  background:#0b468c;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  color: #fff;
+}
+
+.content {
+  position: relative;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.projects a {
+  text-decoration: none;
+  color: blue;
+}
+
+#info {
+  list-style: none;
+}
+
+ul li {
+  padding: 2px 0
+}
+
+.work {
+}
+
+h1 {
+  margin: 0;
+}
+
+#description h3 {
+  margin: 2px;
+}
+
+.head-xp {
+  margin: 2px;
+}
+
+.concepts {
+  list-style: none;
+}
+
+.fa-js,
+.fa-react,
+.fa-vuejs,
+.fa-node {
+  font-size: 20px !important;
+}
+
+.fas,
+.fab {
+  font-size: 15px;
+  margin: 6px;
+}
+
+.fa-code,
+.fa-graduation-cap,
+.fa-wrench,
+.fa-briefcase {
+  font-size: 20px;
+}
+
+#jobs li {
+  position: relative;
+}
+
+#jobs h4 {
+  margin: 10px 0;
+}
+
+
+#jobs li:first-child:before {
+  top: 15px;
+}
+
+#jobs li:last-child:before {
+  height: 6px;
+}
