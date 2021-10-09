@@ -31,22 +31,20 @@ body {
   justify-content: space-between;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 .left,
 .right {
   width: 48%;
   justify-content: center;
 }
 
-.header {
-}
-
-.footer {
-}
-
 .header,
 .footer {
   position: relative;
-  background:#0b468c;
+  background: #0b468c;
   width: 100%;
   display: block;
   justify-content: center;
@@ -58,7 +56,6 @@ body {
   width: 80%;
   display: block;
   margin: 0 auto;
-
 }
 
 .projects a {
@@ -71,10 +68,7 @@ body {
 }
 
 ul li {
-  padding: 2px 0
-}
-
-.work {
+  padding: 2px 0;
 }
 
 h1 {
@@ -120,7 +114,6 @@ h1 {
 #jobs h4 {
   margin: 10px 0;
 }
-
 
 #jobs li:first-child:before {
   top: 15px;
