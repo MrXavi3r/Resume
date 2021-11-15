@@ -122,3 +122,8 @@ h1 {
 #jobs li:last-child:before {
   height: 6px;
 }
+
+.experience h4,
+.experience p {
+  margin: 0;
+}
