@@ -280,3 +280,28 @@ body {
     font-size: 1.5rem;
   }
 }
+
+@media print {
+  .main-content {
+    width: 100%;
+    margin: auto;
+  }
+
+  .left-content {
+    padding: 2rem 0.3rem;
+  }
+
+  .name,
+  .main-title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .career {
+    font-size: 0.75rem;
+  }
+
+  .para {
+    font-size: 0.9rem;
+  }
+}
